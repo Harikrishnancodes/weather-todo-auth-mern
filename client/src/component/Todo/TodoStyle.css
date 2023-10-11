@@ -1,0 +1,83 @@
+body {
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: 'Helvetica Neue', sans-serif;
+  padding: 20px;
+  margin: 0;
+}
+
+.logout {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.navlogout {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.navlogout:hover {
+  background-color: #2980b9;
+}
+
+input[type="text"] {
+  padding: 8px;
+  border: 1px solid #d35400;
+  border-radius: 4px;
+  margin-right: 10px;
+  background-color: #ecf0f1;
+  color: #333;
+}
+
+button {
+  background-color: #2ecc71;
+  color: #110f0f;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #27ae60;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3498db;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+li button {
+  background-color: #e74c3c;
+  color: #ddd8d8;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-left: 5px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+li button:hover {
+  background-color: #c0392b;
+}
+
+li.editing button {
+  background-color: #2ecc71;
+}
